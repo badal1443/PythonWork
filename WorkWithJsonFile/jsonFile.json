@@ -1,0 +1,17 @@
+{
+   "Kind": "Providers",
+   "Addresses": [
+      {
+         "John Muir": {
+            "Street": "ABC rd",
+            "Phone": "1234567890"
+         }
+      },
+      {
+         "UCSF": {
+            "Street": "XYZ rd",
+            "Phone": "9876543210"
+         }
+      }
+   ]
+}
