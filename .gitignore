@@ -1,1 +1,5 @@
 .venv312
+venv
+Filereader
+.DS_Store
+__pycache__
