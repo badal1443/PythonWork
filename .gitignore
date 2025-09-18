@@ -86,3 +86,11 @@ ipython_config.py
 ehthumbs.db
 Thumbs.db
 
+## My FastAPI Project Specific Ignores
+MyFastAPIs/doctors.json
+MyFastAPIs/__pycache__/
+MyFastAPIs/*.pyc
+MyFastAPIs/*.pyo
+MyFastAPIs/*.pyd
+MyFastAPIs/.env
+MyFastAPIs/.venv/
