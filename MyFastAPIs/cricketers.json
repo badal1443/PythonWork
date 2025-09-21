@@ -1,0 +1,618 @@
+[
+  {
+    "_id": {"$oid": "655f1a2b3c4d5e6f78901234"},
+    "name": "Virat Kohli",
+    "jersey_number": 18,
+    "age": 35,
+    "role": "Batsman",
+    "batting_style": "Right-handed",
+    "bowling_style": "Right-arm medium",
+    "debut_year": {
+      "test": 2011,
+      "odi": 2008,
+      "t20i": 2010
+    },
+    "career_stats": {
+      "test": {
+        "matches": 111,
+        "runs": 8676,
+        "average": 49.29,
+        "strike_rate": 57.83,
+        "centuries": 29,
+        "half_centuries": 30,
+        "highest_score": 254,
+        "wickets": 0,
+        "bowling_average": null,
+        "economy_rate": null
+      },
+      "odi": {
+        "matches": 295,
+        "runs": 13848,
+        "average": 58.18,
+        "strike_rate": 93.54,
+        "centuries": 50,
+        "half_centuries": 72,
+        "highest_score": 183,
+        "wickets": 4,
+        "bowling_average": 166.25,
+        "economy_rate": 6.21
+      },
+      "t20i": {
+        "matches": 125,
+        "runs": 4037,
+        "average": 48.69,
+        "strike_rate": 137.04,
+        "centuries": 1,
+        "half_centuries": 37,
+        "highest_score": 122,
+        "wickets": 4,
+        "bowling_average": 25.0,
+        "economy_rate": 6.14
+      }
+    },
+    "profile_image": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170661/virat-kohli.jpg",
+    "captain": false,
+    "current_teams": ["Royal Challengers Bangalore"],
+    "icc_rankings": {
+      "test_batting": 8,
+      "odi_batting": 3,
+      "t20i_batting": 12
+    },
+    "awards": ["ICC ODI Player of the Year 2012", "ICC Cricketer of the Year 2017", "ICC Test Player of the Year 2018"],
+    "active": true
+  },
+  {
+    "_id": {"$oid": "655f1a2b3c4d5e6f78901235"},
+    "name": "Rohit Sharma",
+    "jersey_number": 45,
+    "age": 37,
+    "role": "Batsman",
+    "batting_style": "Right-handed",
+    "bowling_style": "Right-arm off break",
+    "debut_year": {
+      "test": 2013,
+      "odi": 2007,
+      "t20i": 2007
+    },
+    "career_stats": {
+      "test": {
+        "matches": 59,
+        "runs": 4301,
+        "average": 46.77,
+        "strike_rate": 61.16,
+        "centuries": 11,
+        "half_centuries": 16,
+        "highest_score": 212,
+        "wickets": 2,
+        "bowling_average": 27.0,
+        "economy_rate": 4.39
+      },
+      "odi": {
+        "matches": 265,
+        "runs": 10866,
+        "average": 49.62,
+        "strike_rate": 90.99,
+        "centuries": 31,
+        "half_centuries": 56,
+        "highest_score": 264,
+        "wickets": 8,
+        "bowling_average": 61.62,
+        "economy_rate": 5.28
+      },
+      "t20i": {
+        "matches": 148,
+        "runs": 4026,
+        "average": 31.32,
+        "strike_rate": 140.38,
+        "centuries": 4,
+        "half_centuries": 29,
+        "highest_score": 118,
+        "wickets": 2,
+        "bowling_average": 26.0,
+        "economy_rate": 7.27
+      }
+    },
+    "profile_image": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170942/rohit-sharma.jpg",
+    "captain": true,
+    "current_teams": ["Mumbai Indians"],
+    "icc_rankings": {
+      "test_batting": 6,
+      "odi_batting": 2,
+      "t20i_batting": 8
+    },
+    "awards": ["ICC ODI Player of the Year 2019", "Wisden Leading Cricketer in the World 2019"],
+    "active": true
+  },
+  {
+    "_id": {"$oid": "655f1a2b3c4d5e6f78901236"},
+    "name": "Jasprit Bumrah",
+    "jersey_number": 93,
+    "age": 30,
+    "role": "Bowler",
+    "batting_style": "Right-handed",
+    "bowling_style": "Right-arm fast",
+    "debut_year": {
+      "test": 2018,
+      "odi": 2016,
+      "t20i": 2016
+    },
+    "career_stats": {
+      "test": {
+        "matches": 36,
+        "runs": 117,
+        "average": 4.88,
+        "strike_rate": 46.99,
+        "centuries": 0,
+        "half_centuries": 0,
+        "highest_score": 35,
+        "wickets": 159,
+        "bowling_average": 20.69,
+        "economy_rate": 2.75
+      },
+      "odi": {
+        "matches": 89,
+        "runs": 27,
+        "average": 6.75,
+        "strike_rate": 51.92,
+        "centuries": 0,
+        "half_centuries": 0,
+        "highest_score": 10,
+        "wickets": 149,
+        "bowling_average": 24.43,
+        "economy_rate": 4.65
+      },
+      "t20i": {
+        "matches": 70,
+        "runs": 35,
+        "average": 8.75,
+        "strike_rate": 114.75,
+        "centuries": 0,
+        "half_centuries": 0,
+        "highest_score": 16,
+        "wickets": 89,
+        "bowling_average": 20.22,
+        "economy_rate": 6.62
+      }
+    },
+    "profile_image": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170598/jasprit-bumrah.jpg",
+    "captain": false,
+    "current_teams": ["Mumbai Indians"],
+    "icc_rankings": {
+      "test_bowling": 1,
+      "odi_bowling": 3,
+      "t20i_bowling": 7
+    },
+    "awards": ["ICC Test Player of the Year 2021", "ICC Men's Player of the Month July 2021"],
+    "active": true
+  },
+  {
+    "_id": {"$oid": "655f1a2b3c4d5e6f78901237"},
+    "name": "KL Rahul",
+    "jersey_number": 1,
+    "age": 32,
+    "role": "Wicket-keeper Batsman",
+    "batting_style": "Right-handed",
+    "bowling_style": "Right-arm off break",
+    "debut_year": {
+      "test": 2014,
+      "odi": 2016,
+      "t20i": 2016
+    },
+    "career_stats": {
+      "test": {
+        "matches": 48,
+        "runs": 2863,
+        "average": 34.58,
+        "strike_rate": 55.27,
+        "centuries": 7,
+        "half_centuries": 14,
+        "highest_score": 199,
+        "wickets": 0,
+        "bowling_average": null,
+        "economy_rate": null
+      },
+      "odi": {
+        "matches": 69,
+        "runs": 2734,
+        "average": 45.23,
+        "strike_rate": 86.79,
+        "centuries": 7,
+        "half_centuries": 15,
+        "highest_score": 112,
+        "wickets": 0,
+        "bowling_average": null,
+        "economy_rate": null
+      },
+      "t20i": {
+        "matches": 72,
+        "runs": 2265,
+        "average": 37.75,
+        "strike_rate": 139.64,
+        "centuries": 2,
+        "half_centuries": 22,
+        "highest_score": 110,
+        "wickets": 0,
+        "bowling_average": null,
+        "economy_rate": null
+      }
+    },
+    "profile_image": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170943/kl-rahul.jpg",
+    "captain": false,
+    "current_teams": ["Lucknow Super Giants"],
+    "icc_rankings": {
+      "test_batting": 31,
+      "odi_batting": 18,
+      "t20i_batting": 4
+    },
+    "awards": ["CEAT International Cricketer of the Year 2020"],
+    "active": true
+  },
+  {
+    "_id": {"$oid": "655f1a2b3c4d5e6f78901238"},
+    "name": "Ravindra Jadeja",
+    "jersey_number": 8,
+    "age": 35,
+    "role": "All-rounder",
+    "batting_style": "Left-handed",
+    "bowling_style": "Slow left-arm orthodox",
+    "debut_year": {
+      "test": 2012,
+      "odi": 2009,
+      "t20i": 2009
+    },
+    "career_stats": {
+      "test": {
+        "matches": 73,
+        "runs": 2804,
+        "average": 36.42,
+        "strike_rate": 58.02,
+        "centuries": 1,
+        "half_centuries": 19,
+        "highest_score": 175,
+        "wickets": 294,
+        "bowling_average": 24.63,
+        "economy_rate": 2.17
+      },
+      "odi": {
+        "matches": 197,
+        "runs": 2756,
+        "average": 32.24,
+        "strike_rate": 86.58,
+        "centuries": 0,
+        "half_centuries": 13,
+        "highest_score": 87,
+        "wickets": 220,
+        "bowling_average": 36.26,
+        "economy_rate": 4.92
+      },
+      "t20i": {
+        "matches": 74,
+        "runs": 515,
+        "average": 22.39,
+        "strike_rate": 127.41,
+        "centuries": 0,
+        "half_centuries": 2,
+        "highest_score": 46,
+        "wickets": 54,
+        "bowling_average": 29.85,
+        "economy_rate": 7.13
+      }
+    },
+    "profile_image": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170944/ravindra-jadeja.jpg",
+    "captain": false,
+    "current_teams": ["Chennai Super Kings"],
+    "icc_rankings": {
+      "test_batting": 42,
+      "test_bowling": 2,
+      "test_all_rounder": 1,
+      "odi_all_rounder": 3
+    },
+    "awards": ["ICC Test Team of the Year 2017", "Sir Garfield Sobers Trophy nominee 2013"],
+    "active": true
+  },
+  {
+    "_id": {"$oid": "655f1a2b3c4d5e6f78901239"},
+    "name": "Hardik Pandya",
+    "jersey_number": 33,
+    "age": 30,
+    "role": "All-rounder",
+    "batting_style": "Right-handed",
+    "bowling_style": "Right-arm fast-medium",
+    "debut_year": {
+      "test": 2017,
+      "odi": 2016,
+      "t20i": 2016
+    },
+    "career_stats": {
+      "test": {
+        "matches": 11,
+        "runs": 532,
+        "average": 31.29,
+        "strike_rate": 70.27,
+        "centuries": 0,
+        "half_centuries": 1,
+        "highest_score": 93,
+        "wickets": 17,
+        "bowling_average": 31.05,
+        "economy_rate": 3.13
+      },
+      "odi": {
+        "matches": 92,
+        "runs": 1769,
+        "average": 33.64,
+        "strike_rate": 116.3,
+        "centuries": 1,
+        "half_centuries": 7,
+        "highest_score": 92,
+        "wickets": 79,
+        "bowling_average": 32.89,
+        "economy_rate": 5.96
+      },
+      "t20i": {
+        "matches": 104,
+        "runs": 1167,
+        "average": 23.68,
+        "strike_rate": 143.32,
+        "centuries": 0,
+        "half_centuries": 4,
+        "highest_score": 71,
+        "wickets": 79,
+        "bowling_average": 24.20,
+        "economy_rate": 7.65
+      }
+    },
+    "profile_image": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170945/hardik-pandya.jpg",
+    "captain": false,
+    "current_teams": ["Mumbai Indians"],
+    "icc_rankings": {
+      "odi_all_rounder": 8,
+      "t20i_all_rounder": 2
+    },
+    "awards": ["Man of the Match - Champions Trophy Final 2017"],
+    "active": true
+  },
+  {
+    "_id": {"$oid": "655f1a2b3c4d5e6f78901240"},
+    "name": "Mohammed Shami",
+    "jersey_number": 11,
+    "age": 33,
+    "role": "Bowler",
+    "batting_style": "Right-handed",
+    "bowling_style": "Right-arm fast",
+    "debut_year": {
+      "test": 2013,
+      "odi": 2013,
+      "t20i": 2017
+    },
+    "career_stats": {
+      "test": {
+        "matches": 64,
+        "runs": 379,
+        "average": 9.47,
+        "strike_rate": 42.22,
+        "centuries": 0,
+        "half_centuries": 0,
+        "highest_score": 51,
+        "wickets": 229,
+        "bowling_average": 27.17,
+        "economy_rate": 2.82
+      },
+      "odi": {
+        "matches": 95,
+        "runs": 127,
+        "average": 8.46,
+        "strike_rate": 75.44,
+        "centuries": 0,
+        "half_centuries": 0,
+        "highest_score": 25,
+        "wickets": 195,
+        "bowling_average": 25.11,
+        "economy_rate": 5.81
+      },
+      "t20i": {
+        "matches": 24,
+        "runs": 5,
+        "average": 2.5,
+        "strike_rate": 45.45,
+        "centuries": 0,
+        "half_centuries": 0,
+        "highest_score": 4,
+        "wickets": 24,
+        "bowling_average": 32.54,
+        "economy_rate": 9.06
+      }
+    },
+    "profile_image": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170946/mohammed-shami.jpg",
+    "captain": false,
+    "current_teams": ["Gujarat Titans"],
+    "icc_rankings": {
+      "test_bowling": 7,
+      "odi_bowling": 9
+    },
+    "awards": ["Man of the Tournament - Cricket World Cup 2019"],
+    "active": true
+  },
+  {
+    "_id": {"$oid": "655f1a2b3c4d5e6f78901241"},
+    "name": "Rishabh Pant",
+    "jersey_number": 17,
+    "age": 26,
+    "role": "Wicket-keeper Batsman",
+    "batting_style": "Left-handed",
+    "bowling_style": "Right-arm off break",
+    "debut_year": {
+      "test": 2018,
+      "odi": 2018,
+      "t20i": 2017
+    },
+    "career_stats": {
+      "test": {
+        "matches": 33,
+        "runs": 2271,
+        "average": 43.67,
+        "strike_rate": 73.14,
+        "centuries": 6,
+        "half_centuries": 9,
+        "highest_score": 159,
+        "wickets": 0,
+        "bowling_average": null,
+        "economy_rate": null
+      },
+      "odi": {
+        "matches": 30,
+        "runs": 865,
+        "average": 34.6,
+        "strike_rate": 106.54,
+        "centuries": 1,
+        "half_centuries": 5,
+        "highest_score": 125,
+        "wickets": 0,
+        "bowling_average": null,
+        "economy_rate": null
+      },
+      "t20i": {
+        "matches": 66,
+        "runs": 987,
+        "average": 22.43,
+        "strike_rate": 126.37,
+        "centuries": 0,
+        "half_centuries": 3,
+        "highest_score": 65,
+        "wickets": 0,
+        "bowling_average": null,
+        "economy_rate": null
+      }
+    },
+    "profile_image": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170947/rishabh-pant.jpg",
+    "captain": false,
+    "current_teams": ["Delhi Capitals"],
+    "icc_rankings": {
+      "test_batting": 7,
+      "odi_batting": 42
+    },
+    "awards": ["ICC Emerging Player of the Year 2018"],
+    "active": true
+  },
+  {
+    "_id": {"$oid": "655f1a2b3c4d5e6f78901242"},
+    "name": "Yuzvendra Chahal",
+    "jersey_number": 3,
+    "age": 34,
+    "role": "Bowler",
+    "batting_style": "Right-handed",
+    "bowling_style": "Right-arm leg break",
+    "debut_year": {
+      "test": null,
+      "odi": 2016,
+      "t20i": 2016
+    },
+    "career_stats": {
+      "test": {
+        "matches": 0,
+        "runs": 0,
+        "average": null,
+        "strike_rate": null,
+        "centuries": 0,
+        "half_centuries": 0,
+        "highest_score": null,
+        "wickets": 0,
+        "bowling_average": null,
+        "economy_rate": null
+      },
+      "odi": {
+        "matches": 72,
+        "runs": 118,
+        "average": 13.11,
+        "strike_rate": 71.52,
+        "centuries": 0,
+        "half_centuries": 0,
+        "highest_score": 18,
+        "wickets": 121,
+        "bowling_average": 27.13,
+        "economy_rate": 5.27
+      },
+      "t20i": {
+        "matches": 96,
+        "runs": 66,
+        "average": 8.25,
+        "strike_rate": 97.05,
+        "centuries": 0,
+        "half_centuries": 0,
+        "highest_score": 12,
+        "wickets": 96,
+        "bowling_average": 25.09,
+        "economy_rate": 8.35
+      }
+    },
+    "profile_image": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170948/yuzvendra-chahal.jpg",
+    "captain": false,
+    "current_teams": ["Rajasthan Royals"],
+    "icc_rankings": {
+      "odi_bowling": 15,
+      "t20i_bowling": 24
+    },
+    "awards": ["Purple Cap winner IPL 2022"],
+    "active": true
+  },
+  {
+    "_id": {"$oid": "655f1a2b3c4d5e6f78901243"},
+    "name": "Shubman Gill",
+    "jersey_number": 77,
+    "age": 24,
+    "role": "Batsman",
+    "batting_style": "Right-handed",
+    "bowling_style": "Right-arm off break",
+    "debut_year": {
+      "test": 2020,
+      "odi": 2019,
+      "t20i": 2022
+    },
+    "career_stats": {
+      "test": {
+        "matches": 25,
+        "runs": 1492,
+        "average": 35.52,
+        "strike_rate": 58.65,
+        "centuries": 3,
+        "half_centuries": 7,
+        "highest_score": 128,
+        "wickets": 0,
+        "bowling_average": null,
+        "economy_rate": null
+      },
+      "odi": {
+        "matches": 47,
+        "runs": 2328,
+        "average": 58.2,
+        "strike_rate": 96.77,
+        "centuries": 5,
+        "half_centuries": 16,
+        "highest_score": 208,
+        "wickets": 0,
+        "bowling_average": null,
+        "economy_rate": null
+      },
+      "t20i": {
+        "matches": 18,
+        "runs": 354,
+        "average": 22.12,
+        "strike_rate": 134.09,
+        "centuries": 0,
+        "half_centuries": 1,
+        "highest_score": 67,
+        "wickets": 0,
+        "bowling_average": null,
+        "economy_rate": null
+      }
+    },
+    "profile_image": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170949/shubman-gill.jpg",
+    "captain": false,
+    "current_teams": ["Gujarat Titans"],
+    "icc_rankings": {
+      "test_batting": 11,
+      "odi_batting": 1
+    },
+    "awards": ["ICC Men's Player of the Month April 2023", "Orange Cap winner IPL 2023"],
+    "active": true
+  }
+]

@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  finddoc-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGO_DB_USER=${MONGO_DB_USER}
+      - MONGO_DB_PASSWORD=${MONGO_DB_PASSWORD}
+      - MONGO_DATABASE=${MONGO_DATABASE}
+      - MONGO_COLLECTION=${MONGO_COLLECTION}
+    env_file:
+      - .env
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - finddoc-network
+
+networks:
+  finddoc-network:
+    driver: bridge
